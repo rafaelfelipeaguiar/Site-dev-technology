@@ -11,12 +11,13 @@ body{
     padding: 0px;
 }
 .home-div-a{
-    display: block;
     color: #ffffffba;
-    width: auto;
     margin-top: 250px;
     margin-left: 100px;
-    /*border: 5px solid aliceblue;*/
+}
+
+.nav-link{
+    margin: 10px;
 }
 .home-font{
     position: relative;
@@ -25,7 +26,6 @@ body{
 }
 .home-div-b{
     margin-top: 105px;
-    /*border: 5px solid aliceblue;*/
 }
 .btn-home{
     background-color: #00C855; 
@@ -38,4 +38,34 @@ body{
 }
 #text-home{
     width: 500px;
+}
+
+#nav-img{
+    height: 50px;
+}
+
+.nav-item-responsive {
+    display: none;
+}
+
+.navbar {
+    display: flex !important;
+}
+
+.nav-buttons{
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 690px) {
+    .nav-item {
+        display: none;
+    }
+    .nav-item-responsive {
+        display: block
+    }
+
+    #nav-img{
+        width: 250px;
+        height: unset;
+    }
 }
