@@ -35,17 +35,17 @@ body{
     height: 35px;
     width: 206px;
     margin-top: 10px;
+    font-weight: 550;
 }
 #text-home{
     width: 500px;
     font-family: 'Roboto';
-    font-style: normal;
+    font-style: medium;
 }
 
 #btnContact{
-    font-family: 'Poppins';
-    font-style: normal;
-    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-style: Bold;
     line-height: 22px;
 }
 
@@ -70,19 +70,23 @@ body{
     font-style: Bold;
     color: #03FA6E;
     line-height: 95px;
+    font-weight: 550;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     text-shadow: 3px 0px 0px #009641;
 }
 
 #title-tech{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    font-style: Bold;
+    font-weight: 550;
     font-style: normal;
     letter-spacing: 2px;
 }
 #title-segments{
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: Bold;
+    font-weight: 550;
 }
 
 .PoppinsNormal{
