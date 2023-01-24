@@ -17,7 +17,7 @@ body{
 }
 
 .nav-link{
-    margin: 10px;
+    margin: 25px;
 }
 .home-font{
     position: relative;
@@ -63,6 +63,7 @@ body{
     color: white; 
     width: 384px;
     border-radius: 25px 25px;
+    margin-bottom: 25px;
 }
 
 .cards label {
@@ -122,7 +123,7 @@ body{
 }
 
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 800px) {
     .nav-item {
         display: none;
     }
@@ -166,3 +167,39 @@ body{
     background-image: url(img/fundo.png);
     border-radius: 50%;
 }    
+
+/* Contate-nos */
+
+.contato-texto label{
+    color: #9C9C9C;  
+}
+
+.contato-texto h4{
+    color: white;  
+}
+
+.contato-botao a{
+    width: 300px;
+    border-radius: 50px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    background-color: #252427;
+    width: 1280px;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
