@@ -132,3 +132,34 @@ body{
         height: unset;
     }
 }
+
+      /* Nossas tecnologias*/
+.tecnologias{
+    color: white;
+    padding: 100px;
+}
+.icons{
+    margin-top: 17px;
+    margin-left: 15px;
+    width: 75px;
+    height: 75px;
+}
+.icon-a{
+    margin-top: 15px;
+    margin-left: 11px;
+    width: 75px;
+    height: 75px;
+}
+.icon-b{
+    margin-top: 22px;
+    margin-left: 14px;
+    width: 80px;
+    height: 60px;
+}  
+.icons-fundo{
+    margin-top: 10px;
+    width: 105px;
+    height: 105px;
+    background-image: url(img/fundo.png);
+    border-radius: 50%;
+}    
